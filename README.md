@@ -36,8 +36,7 @@ Stable internet connection for API requests
 ### Dependencies
 ### Install dependencies using:
 
-bash
-Copy code
+
 
 pip install -r requirements.txt
 
@@ -45,23 +44,20 @@ Installation
 
 ### Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/your-username/Bitcoin-Bid-and-Ask-price-prediction-after-1-min-interval-for-High-frequency-trading.git
 
 cd Bitcoin-Bid-and-Ask-price-prediction-after-1-min-interval-for-High-frequency-trading
 
 ### Install required libraries:
 
-bash
-Copy code
+
 
 pip install -r requirements.txt
 
 ### Set up Binance API keys in the main.py file:
 
-python
-Copy code
+
 
 API_KEY = 'your_api_key'
 
@@ -71,8 +67,7 @@ API_SECRET = 'your_api_secret'
 ### Step 1: Data Fetching
 ### Run the data fetching script to collect real-time market data:
 
-bash
-Copy code
+
 
 python main.py
 
@@ -90,29 +85,19 @@ Outputs results for strategy validation.
 ### Configuration
 ### Symbol: Change the cryptocurrency symbol to match your use case:
 
-python
-Copy code
-
 symbol = "BTCUSDT"
 
 ### Interval: Modify the fetching interval:
-
-python
-Copy code
 
 fetch_delay = 1  # Fetch every 1 second
 
 ### Training Interval: Set the retraining frequency:
 
-python
-Copy code
 
 training_interval = 300  # Retrain every 5 minutes
 
 ### Target Labels: Define prediction targets:
 
-python
-Copy code
 
 target_labels = ['future_bid_price', 'future_ask_price']
 
@@ -131,7 +116,6 @@ File Structure
 
 python
 
-Copy code
 
 Bitcoin-Bid-and-Ask-price-prediction-after-1-min-interval-for-High-frequency-trading/
 
