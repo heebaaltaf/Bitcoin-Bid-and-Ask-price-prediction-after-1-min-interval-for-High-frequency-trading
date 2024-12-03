@@ -83,8 +83,8 @@ from scipy.stats import mode
 import utils
 import pickle
 
-API_KEY = 'Tk336ytIFldrN1FAfxaS1OYcyzOFZ4Lie7VpctLyTmhGL4QlQxhB3bo9AnmjsEnD'
-API_SECRET = 'fSAofJ8C4o8ErfgLMGocRJMrnZDbDPfQBzuD7iTr1cMHza2PwwUH63bo70LxmdHp'
+API_KEY = 'xxxxx'
+API_SECRET = 'xxxxx'
 
 
 client = Client(API_KEY, API_SECRET)
