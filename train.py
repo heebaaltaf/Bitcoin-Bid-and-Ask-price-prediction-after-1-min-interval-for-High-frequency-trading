@@ -27,8 +27,8 @@ from sklearn.preprocessing import MinMaxScaler
 import joblib
 from threading import Thread, Lock
 
-API_KEY = 'Tk336ytIFldrN1FAfxaS1OYcyzOFZ4Lie7VpctLyTmhGL4QlQxhB3bo9AnmjsEnD'
-API_SECRET = 'fSAofJ8C4o8ErfgLMGocRJMrnZDbDPfQBzuD7iTr1cMHza2PwwUH63bo70LxmdHp'
+API_KEY = 'xxxxxxxx'
+API_SECRET = 'xxxxxxxxx'
 
 
 client = Client(API_KEY, API_SECRET)
